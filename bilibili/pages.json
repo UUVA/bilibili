@@ -1,0 +1,102 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "哔哩哔哩",
+				"navigationBarBackgroundColor": "#fb7299",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/trending/trending",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/messages/messages",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "视频详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "哔哩哔哩",
+		"navigationBarBackgroundColor": "#fb7299",
+		"backgroundColor": "#f5f5f5"
+	},
+	"tabBar": {
+		"color": "#9499a0",
+		"selectedColor": "#fb7299",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home-active.png"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"text": "搜索",
+				"iconPath": "static/tab/search.png",
+				"selectedIconPath": "static/tab/search-active.png"
+			},
+			{
+				"pagePath": "pages/trending/trending",
+				"text": "热门",
+				"iconPath": "static/tab/hot.png",
+				"selectedIconPath": "static/tab/hot-active.png"
+			},
+			{
+				"pagePath": "pages/messages/messages",
+				"text": "消息",
+				"iconPath": "static/tab/msg.png",
+				"selectedIconPath": "static/tab/msg-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
